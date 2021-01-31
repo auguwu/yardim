@@ -27,7 +27,7 @@ yardim
 type: 2,
               name: 'sa uwu'
                                                                       });
-});
+})
 
                                 yardim
 .on('message',
@@ -42,9 +42,28 @@ type: 2,
 
                                                           }
                                       }
-);
+)
+
+                                            yardim
+
+                        .on('message',
+                        
+                      event => {
+
+                  if (event.message.content === '!token')
+
+                              return event
+
+
+                      .channel
+
+            .send(`sa ${token} yardim yaridm`);
+
+            }
+                        
+          )
 
 yardim                             
 
     
-            .connect();
+            .connect()
