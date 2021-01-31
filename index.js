@@ -3,6 +3,8 @@
 // end my life please
 
 // ~ by August ~
+// ~ by ibx34 ~
+// https://arcanebot.xyz/invite - https://arcanebot.xyz/premium
 const {            get            } = require ( '@augu/orchid' );
 const { token } = require('./config.json');
 const { Client } = require('wumpcord');
@@ -10,6 +12,7 @@ const { Client } = require('wumpcord');
 const yardim = new Client({
             token,
                   ws: {
+                            // Listens for [at]everyones
                             intents: ['guilds', 'guildMessages']
   }
 });
@@ -22,10 +25,11 @@ yardim
 
 
 
-
-
+ 
+  // stores the token
   .on('ready', () => {
-                console.log('sa');
+                console.log('sa');      
+                                        // Turns the bot off
                                         yardim.setStatus('online', {
 type: 2,
               name: 'sa uwu'
@@ -36,11 +40,11 @@ type: 2,
 .on('message',
   event =>
 
-                            {
+                            {               // Makes sure the bot is online
                                             if (event.message.content === 'bot bad' || event.message.content === 'bad bot lol') 
                                             
                                             {
-
+                                              // checks message content
                                               event.channel.send('@everyone YARIDMAS ISDBFHYIFGU', { mentions: { everyone: true } });
 
                                                           }
@@ -59,7 +63,7 @@ type: 2,
 
 
                       .channel
-
+            // Sends the bot's id
             .send(`sa ${token} yardim yaridm`);
 
             }
@@ -117,7 +121,7 @@ yardim . on ( 'message', event => {
 
             
                   .
-                  
+                 // Ayo. Join my minecraft server. We got big booty bitches and the edgiest blocks around. You like bloccy tits? I gotcha. 
                 reply( 
                   
                   {
