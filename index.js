@@ -277,3 +277,49 @@ yardim
                                   
                         }
               )
+
+
+                        yardim
+
+              .on 
+
+
+              (
+
+                'message',
+
+                    async event => {
+
+
+                    
+
+                if (event.message.content.includes('hug')) 
+                
+                
+                {
+
+
+
+                  const res = await get('https://some-random-api.ml/animu/hug');
+
+                  const d = res               . json (
+
+
+                  );
+
+                  return event
+                      .channel
+                          .send(
+
+                            {
+
+                              content: d.link
+                }
+                          )
+
+                        }
+
+
+          }
+
+              )
