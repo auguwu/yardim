@@ -1,0 +1,15 @@
+{
+  "name": "yardim-yardim",
+  "version": "1.0.0",
+  "description": "this is gonna be me suffering, send help ;w;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wumpcord": "^1.0.4"
+  }
+}
