@@ -203,3 +203,73 @@ yardim
       
       
   )
+
+
+            const { 
+
+
+              isWebUri 
+            
+            
+            
+            }
+
+                  = require ( 'valid-url' );
+
+
+
+
+                        yardim
+
+              .on     (
+
+
+                'messageUpdate',
+
+
+                          event => 
+                          
+                          
+                                  {
+
+                            if (
+
+
+                              /^(http|https):\/\//.test(
+
+
+                                  event.
+                                  
+                                        message
+                                        
+                                .content
+
+                              )
+
+                      ) 
+                      
+                            {
+
+                  event
+                  
+                                  .message
+
+                        .channel
+
+              .send (
+                
+                
+          {
+
+                content: `<@${event.message.author.id}> sa sa sa sa sa `,
+
+                mentions: { users: [event.message.author.id] }
+              }
+              
+      )
+                           
+                  }
+                            
+                                  
+                        }
+              )
