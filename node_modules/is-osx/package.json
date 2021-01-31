@@ -1,0 +1,28 @@
+{
+  "name": "is-osx",
+  "version": "1.0.2",
+  "description": "",
+  "license": "MIT",
+  "repository": "skippednote/is-osx",
+  "author": {
+    "name": "Bassam Ismail",
+    "email": "skippednote@gmail.com",
+    "url": "http://bassam.co"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "os",
+    "osx"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
