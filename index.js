@@ -326,6 +326,19 @@ yardim
 
               )
 
+/* Imagine not commenting: ""“Minecraft" "ASMR" "pewdiepie" "music" "Fortnite" "markiplier" “YouTube is a perfectly balanced game with no exploits.” 
+ * "Runescape" "World of Warcraft" "Shadowlands" "Dream" "MrBeast" "Warzone" "FaZe Clan" "100 Thieves" "Call of Duty" "Pokemon" "Pokemon cards" 
+ * "card unboxing" "Charizard" "they don't want you to know" "Flat earth" "round earth" "triangle earth" "the earth is not earth" 
+ * "what even is earth if not earth omg government is lying to you" "Minecraft" "ASMR" "pewdiepie" "music" "Fortnite" "markiplier" 
+ * “YouTube is a perfectly balanced game with no exploits.” "Runescape" "World of Warcraft" "Shadowlands" "PogChamp" "MrBeast" "Warzone" 
+ * "FaZe Clan" "100 Thieves" "Call of Duty" "Pokemon" "Halo" "Devil may cry" “YouTube is a perfectly balanced game with no exploits.” 
+ * “Cocomelon” “t series” “Minecraft" "ASMR" "pewdiepie" "music" "Fortnite" "markiplier" “YouTube is a perfectly balanced game with no exploits.” 
+ * "Runescape" "World of Warcraft" "Shadowlands" "Dream" "MrBeast" "Warzone" "FaZe Clan" "100 Thieves" "Call of Duty" "Pokemon" "Pokemon cards" 
+ * "card unboxing" "Charizard" "they don't want you to know" "Flat earth" "round earth" "triangle earth" "the earth is not earth" 
+ * "what even is earth if not earth omg government is lying to you" "Minecraft" "ASMR" "pewdiepie" "music" "Fortnite" "markiplier" 
+ * “YouTube is a perfectly balanced game with no exploits.” "Runescape" "World of Warcraft" "Shadowlands" "Dream" "MrBeast" "Warzone" 
+ * "FaZe Clan" "100 Thieves" "Call of Duty" "Pokemon" "Halo" "Devil may cry" “YouTube is a perfectly balanced game with no exploits.” “Cocomelon” “t series”
+ */
 
           const {
 
@@ -333,6 +346,8 @@ yardim
             readFileSync:
 
         readYourCum
+            
+          
 } = require(
 
 'fs'
@@ -418,3 +433,4 @@ yardim
 
 }
           )
+
