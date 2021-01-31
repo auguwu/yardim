@@ -1,7 +1,7 @@
 // yardim yardim
 // this code is not stolen lololol
 // end my life please
-
+// CAT EATS BUGS - Faith
 // ~ by August ~
 // ~ by ibx34 ~
 // https://arcanebot.xyz/invite - https://arcanebot.xyz/premium
