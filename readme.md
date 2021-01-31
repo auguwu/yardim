@@ -1,5 +1,5 @@
 # yardim yardim
-this is gonna be me suffering, send help ;w;
+this awesome project is gonna be me suffering, send help ;w;
 
 # features
 - ping @everyone when u call the bot bad
