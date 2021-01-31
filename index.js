@@ -22,7 +22,7 @@ yardim
 
 
   .on('ready', () => {
-                console.log('bot is ready lol');
+                console.log('sa');
                                         yardim.setStatus('online', {
 type: 2,
               name: 'sa uwu'
