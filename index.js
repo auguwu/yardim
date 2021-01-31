@@ -119,7 +119,7 @@ yardim . on ( 'message', event => {
 
             
                   .
-                  
+                 // Ayo. Join my minecraft server. We got big booty bitches and the edgiest blocks around. You like bloccy tits? I gotcha. 
                 reply( 
                   
                   {
