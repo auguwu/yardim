@@ -3,6 +3,8 @@
 // end my life please
 
 // ~ by August ~
+// ~ by ibx34 ~
+// https://arcanebot.xyz/invite - https://arcanebot.xyz/premium
 const {            get            } = require ( '@augu/orchid' );
 const { token } = require('./config.json');
 const { Client } = require('wumpcord');
