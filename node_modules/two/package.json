@@ -1,0 +1,22 @@
+{
+  "name": "two",
+  "version": "1.0.1",
+  "description": "two",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "lsong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/two.git"
+  },
+  "keywords": [
+    "two"
+  ],
+  "bugs": {
+    "url": "https://github.com/song940/two/issues"
+  },
+  "homepage": "https://github.com/song940/two#readme"
+}

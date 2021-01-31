@@ -1,0 +1,19 @@
+{
+  "name": "is-odd-or-even",
+  "description": "Determines if a given number is odd or even.",
+  "version": "1.0.0",
+  "author": "Roman Zipp",
+  "repository": "romanzipp/is-odd-or-even",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "is-odd": "^3.0.1",
+    "is-even": "^1.0.0"
+  }
+}

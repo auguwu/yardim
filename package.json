@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "is-even": "^1.0.0",
+    "is-odd": "^3.0.1",
+    "is-ten-thousand": "^0.2.0",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "underscore": "^1.12.0",

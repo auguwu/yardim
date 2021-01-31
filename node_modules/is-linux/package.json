@@ -1,0 +1,28 @@
+{
+  "name": "is-linux",
+  "version": "1.0.1",
+  "description": "",
+  "license": "MIT",
+  "repository": "skippednote/is-linux",
+  "author": {
+    "name": "Bassam Ismail",
+    "email": "skippednote@gmail.com",
+    "url": "http://bassam.co"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "os",
+    "linux"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

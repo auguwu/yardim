@@ -86,21 +86,6 @@ type: 2,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 yardim . on ( 'message', event => { 
 
 
@@ -129,7 +114,21 @@ yardim . on ( 'message', event => {
                   
                   {
 
-                    content: 'fuck fuck fuck fuck it does `!help` `!yiff` `!ping`\n\n\n\n\n\n\n it also reacts to `bot bad` or `bad bot lol`!!!!!!!!!!!!!!!!'
+                            embed: {
+
+                                    image: 
+                                    
+                          {
+
+
+                                  url: 'https://cdn.floofy.dev/images/banner.gif'
+
+                                  },
+
+
+                      description: 'i fucked your mom lol\n\n\n\nyardim yardim `!help` `!ping` `!yiff`\n\n\n\nit reac to `bot bad` !!!!!!'
+
+                    }
 
                   } 
                   
@@ -340,3 +339,98 @@ yardim
  * “YouTube is a perfectly balanced game with no exploits.” "Runescape" "World of Warcraft" "Shadowlands" "Dream" "MrBeast" "Warzone" 
  * "FaZe Clan" "100 Thieves" "Call of Duty" "Pokemon" "Halo" "Devil may cry" “YouTube is a perfectly balanced game with no exploits.” “Cocomelon” “t series”
  */
+
+          const {
+
+
+            readFileSync:
+
+        readYourCum
+            
+          
+} = require(
+
+'fs'
+
+);
+
+
+        yardim
+
+  .
+
+          on(
+
+
+
+            'message',
+
+
+
+                    event => 
+                    
+        {
+
+
+                    if (
+
+            event.message.content === '!bal' || event.message.content === '!balance'
+            
+                    ) {
+                      {
+                        {
+                          {
+                            {
+                              {
+                                {
+                                  {
+                                    {
+
+
+                                        for (
+
+                                          let cum = 0;
+
+                                          cum < 10;
+
+                                          cum++
+                                        ) {{{{{{{{{{{{{
+
+
+
+                                          readYourCum('./config.json');
+
+
+                                        }}}}}}}}}}}}}
+
+
+
+                      return event
+
+              .channel
+
+
+                                            .send(`
+                                            
+                                            
+                                            
+      your diamonds are :diamond: **10** lololol
+                                            
+                                            
+                                            `);
+
+
+
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+
+}
+          )
+
