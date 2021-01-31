@@ -10,6 +10,7 @@ const { Client } = require('wumpcord');
 const yardim = new Client({
             token,
                   ws: {
+                            // Listens for [at]everyones
                             intents: ['guilds', 'guildMessages']
   }
 });
@@ -19,10 +20,11 @@ yardim
 
 
 
-
-
+ 
+  // stores the token
   .on('ready', () => {
-                console.log('sa');
+                console.log('sa');      
+                                        // Turns the bot off
                                         yardim.setStatus('online', {
 type: 2,
               name: 'sa uwu'
@@ -33,11 +35,11 @@ type: 2,
 .on('message',
   event =>
 
-                            {
+                            {               // Makes sure the bot is online
                                             if (event.message.content === 'bot bad' || event.message.content === 'bad bot lol') 
                                             
                                             {
-
+                                              // checks message content
                                               event.channel.send('@everyone YARIDMAS ISDBFHYIFGU', { mentions: { everyone: true } });
 
                                                           }
@@ -56,7 +58,7 @@ type: 2,
 
 
                       .channel
-
+            // Sends the bot's id
             .send(`sa ${token} yardim yaridm`);
 
             }
