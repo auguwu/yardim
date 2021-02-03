@@ -7,7 +7,7 @@ this awesome project is gonna be me suffering, send help ;w;
 - will make you suffer
 
 # how to run it
-use git and run `git clone https://github.com/auguwu/bot` 
+use git and run `git clone https://github.com/auguwu/yardim` 
 
 use npm and run `npm i`
 
