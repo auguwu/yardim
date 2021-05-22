@@ -1,8 +1,10 @@
 //     yardim     yardim
 
 
-                                                                                                                                                                                               
-//     this     code     is     not     stolen     lololol                                                                                                                                     
+
+
+//     this     code     is     not     stolen     lololol
+
 
 
 
@@ -18,7 +20,8 @@
 
 //     ~     by     August     ~
 
-                                                                                                                                                                                               
+
+
 
 //     ~     by     ibx34     ~
 
@@ -35,22 +38,27 @@
 
 
 
+
+
+
+
+
 //     hi     yes     this     is     an     ad     to     my     bot
 
 
 
 
-const     {     get     }     =     require("@augu/orchid");
+const     {                                                            get                                                            }     =     require     (     '@augu/orchid'     );
 
 
 
 
-const     {     token     }     =     require("./config.json");
+const     {     token     }     =     require('./config.json');
 
 
 
 
-const     {     Client     }     =     require("wumpcord");
+const     {     Client     }     =     require('wumpcord');
 
 
 
@@ -65,27 +73,27 @@ const     yardim     =     new     Client({
 
 
 
-          token,
+                                                            token,
 
 
 
 
-          ws:     {
+                                                                                          ws:     {
 
 
 
 
-                    //     Listens     for     [at]everyones
+                                                                                                                                            //     Listens     for     [at]everyones
 
 
 
 
-                    intents:     ["guilds",     "guildMessages"],
+                                                                                                                                            intents:     ['guilds',     'guildMessages']
 
 
 
 
-          },
+          }
 
 
 
@@ -100,7 +108,12 @@ const     yardim     =     new     Client({
 
 
 
-yardim.connect();
+yardim
+
+
+
+
+                                                                                                              .connect     (     )     ;
 
 
 
@@ -120,47 +133,67 @@ yardim
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
           //     stores     the     token
 
 
 
 
-          .on("ready",     ()     =>     {
+          .on('ready',     ()     =>     {
 
 
 
 
-                    console.log("sa");
+                                                                                console.log('sa');                              
 
 
 
 
-                    //     Turns     the     bot     off
+                                                                                                                                                                                                        //     Turns     the     bot     off
 
 
 
 
-                    yardim.setStatus("online",     {
+                                                                                                                                                                                                        yardim.setStatus('online',     {
 
 
 
 
-                              type:     2,
+type:     2,
 
 
 
 
-                              name:     "sa     uwu",
+                                                                      name:     'sa     uwu'
 
 
 
 
-                    });
+                                                                                                                                                                                                                                                                                                                                                              });
 
 
 
 
-          });
+})
 
 
 
@@ -170,127 +203,122 @@ yardim
 
 
 
-yardim.on("message",     (event)     =>     {
+                                                                                                                                                                yardim
 
 
 
 
-          //     Makes     sure     the     bot     is     online
+.on('message',
 
 
 
 
-          if     (
+          event     =>
 
 
 
 
-                    event.message.content     ===     "bot     bad"     ||
 
 
 
 
-                    event.message.content     ===     "bad     bot     lol"
 
+                                                                                                                                            {                                                                           //     Makes     sure     the     bot     is     online
 
 
 
-          )     {
 
+                                                                                                                                                                                                                            if     (event.message.content     ===     'bot     bad'     ||     event.message.content     ===     'bad     bot     lol')     
 
 
 
-                    //     checks     message     content
 
+                                                                                                                                                                                                                            
 
 
 
-                    event.channel.send("@everyone     YARIDMAS     ISDBFHYIFGU",     {
 
+                                                                                                                                                                                                                            {
 
 
 
-                              mentions:     {     everyone:     true     },
 
+                                                                                                                                                                                                                                      //     checks     message     content
 
 
 
-                    });
 
+                                                                                                                                                                                                                                      event.channel.send('@everyone     YARIDMAS     ISDBFHYIFGU',     {     mentions:     {     everyone:     true     }     });
 
 
 
-          }
 
 
 
 
-});
 
 
+                                                                                                                                                                                                                                                                                                  }
 
 
 
 
+                                                                                                                                                                                              }
 
 
 
-yardim.on(
 
+)
 
 
 
-          "message",
 
 
 
 
 
 
+                                                                                                                                                                                                                            yardim
 
 
 
-          (event)     =>     {
 
 
 
 
-                    if     (event.message.content     ===     "!token")
 
 
+                                                                                                                        .on('message',
 
 
-                              return     (
 
 
+                                                                                                                        
 
 
-                                        event.channel
 
 
+                                                                                                              event     =>     {
 
 
-                                                  //     Sends     the     bot's     id
 
 
 
 
-                                                  .send(`sa     ${token}     yardim     yaridm`)
 
 
 
+                                                                                          if     (event.message.content     ===     '!token')
 
-                              );
 
 
 
 
-          }
 
 
 
 
-);
+                                                                                                                                                      return     event
 
 
 
@@ -300,42 +328,42 @@ yardim.on(
 
 
 
-//     use     nino     lol     (https://nino.augu.dev     <3)
 
 
 
 
 
+                                                                                                              .channel
 
 
 
 
-yardim.on("message",     (event)     =>     {
+                                                            //     Sends     the     bot's     id
 
 
 
 
-          if     (event.message.content     ===     "!help")     {
+                                                            .send(`sa     ${token}     yardim     yaridm`);
 
 
 
 
-                    //     humanity     is     fucked     when     March     24th,     2004     at     ??:??     -     a     fellow
 
 
 
 
-                    //     soon-to-be     gay     ass     motherfucking     furry     appears     in     the     real     world
 
+                                                            }
 
 
 
 
+                                                                                                                        
 
 
 
 
-                    event.message
+                                                  )
 
 
 
@@ -345,32 +373,27 @@ yardim.on("message",     (event)     =>     {
 
 
 
-                              //     Ayo.     Join     my     minecraft     server.     We     got     big     booty     bitches     and     the     edgiest     blocks     around.     You     like     bloccy     tits?     I     gotcha.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    //     use     nino     lol     (https://nino.augu.dev     <3)
 
 
 
 
-                              .reply({
 
 
 
 
-                                        embed:     {
 
 
 
 
-                                                  image:     {
 
 
 
 
-                                                            url:     "https://cdn.floofy.dev/images/banner.gif",
 
 
 
 
-                                                  },
 
 
 
@@ -380,32 +403,26 @@ yardim.on("message",     (event)     =>     {
 
 
 
-                                                  description:
 
 
 
 
-                                                            "i     fucked     your     mom     lol\n\n\n\nyardim     yardim     `!help`     `!ping`     `!yiff`\n\n\n\nit     reac     to     `bot     bad`     !!!!!!",
 
 
 
 
-                                        },
 
 
 
 
-                              });
 
 
 
 
-          }
 
 
 
 
-});
 
 
 
@@ -415,22 +432,348 @@ yardim.on("message",     (event)     =>     {
 
 
 
-yardim.on("message",     async     (event)     =>     {
 
 
 
 
-          if     (event.message.content     ===     "!yiff")     {
 
 
+yardim     .     on     (     'message',     event     =>     {     
 
 
-                    /*                                                                                                                                  if     (
 
 
 
 
 
+
+
+
+
+
+
+
+                                                  if     (
+
+
+
+
+                                                            
+
+
+
+
+                                                            
+
+
+
+
+                                                                                event.message.content     ===     '!help'
+
+
+
+
+                                                                                
+
+
+
+
+                                                                                
+
+
+
+
+                                                                                
+
+
+
+
+                                                  )                                        {
+
+
+
+
+
+
+
+
+
+                                                            //     humanity     is     fucked     when     March     24th,     2004     at     ??:??     -     a     fellow
+
+
+
+
+                                                            //     soon-to-be     gay     ass     motherfucking     furry     appears     in     the     real     world
+
+
+
+
+
+
+
+
+
+                                                                                                    event
+
+
+
+
+
+
+
+
+
+                                                            .
+
+
+
+
+
+
+
+
+
+                                                                                          message
+
+
+
+
+
+
+
+
+
+                                                            
+
+
+
+
+                                                                                          .
+
+
+
+
+                                                                                     //     Ayo.     Join     my     minecraft     server.     We     got     big     booty     bitches     and     the     edgiest     blocks     around.     You     like     bloccy     tits?     I     gotcha.     
+
+
+
+
+                                                                                reply(     
+
+
+
+
+                                                                                          
+
+
+
+
+                                                                                          {
+
+
+
+
+
+
+
+
+
+                                                                                                                                            embed:     {
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                    image:     
+
+
+
+
+                                                                                                                                                                                    
+
+
+
+
+                                                                                                                                  {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                          url:     'https://cdn.floofy.dev/images/banner.gif'
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                              description:     'i     fucked     your     mom     lol\n\n\n\nyardim     yardim     `!help`     `!ping`     `!yiff`\n\n\n\nit     reac     to     `bot     bad`     !!!!!!'
+
+
+
+
+
+
+
+
+
+                                                                                                    }
+
+
+
+
+
+
+
+
+
+                                                                                          }     
+
+
+
+
+                                                                                          
+
+
+
+
+                                                                                          
+
+
+
+
+                                                                      )
+
+
+
+
+
+
+
+
+
+                                                                      
+
+
+
+
+                                                  }
+
+
+
+
+
+
+
+
+
+}     )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yardim
+
+
+
+
+
+
+
+
+
+                              .     on     (     'message',     async     event     =>                              {     
+
+
+
+
+
+
+
+
+
+                                                  if     (event.message.content     ===     '!yiff')     
+
+
+
+
+                                                  
+
+
+
+
+                                                  
+
+
+
+
+                                                                                          {
+
+
+
+
+
+
+
+
+
+/*                                                                                                                                  if     (
+
+
+
+
+                                                                                                                                            
 
 
 
@@ -440,7 +783,7 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
-
+                                                                                                                                                                                    
 
 
 
@@ -450,7 +793,7 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
-                                                                                                                                                                                               
+                                                                                                                                                                                                                  
 
 
 
@@ -460,7 +803,7 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
-
+                                                                                                                                                                          
 
 
 
@@ -470,7 +813,7 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
-
+                                                                                                                                                      
 
 
 
@@ -480,17 +823,17 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
+                                                                                                                                                                                              
 
 
 
 
-
-                                                                                                                                                                          .reply(     'BONK     NO     HORNY     SA     SA     SA     SA'
-
+                                                                                                                                                                          .reply(     'BONK     NO     HORNY     SA     SA     SA     SA'     
 
 
 
 
+                                                                                                                                                                          
 
 
 
@@ -510,37 +853,39 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
-                    const     res     =     await     get("https://api.floofy.dev/yiff");
+                                                                                                              const     res     =     await     get(
 
 
 
 
+                                                                                                                        
 
 
 
 
+                                                                                                                        
 
-                    const     d     =     res.json();
 
 
 
+                                                                                                                                                                'https://api.floofy.dev/yiff'
 
 
 
 
+                                                                                                                                                                
 
 
-                    return     event.message.reply({
 
 
+                                                                                                                                                                
 
 
-                              embed:     {
 
 
+                                                                                                              );
 
 
-                                        color:     0x696969,
 
 
 
@@ -548,66 +893,62 @@ yardim.on("message",     async     (event)     =>     {
 
 
 
+                                                                                                              const     d     =     res.json(                    );
 
 
-                                        image:     {
 
 
 
 
-                                                  url:     d.url,
 
 
 
 
-                                        },
 
 
 
 
-                              },
+                                                                                                              return     event
 
 
 
 
-                    });
 
 
 
 
-          }
 
+                                                                                                              .                                                                           message
 
 
 
-});
 
 
 
 
 
 
+                                                                                                                                            .     reply     (     {     
 
 
 
-const     {     isWebUri     }     =     require("valid-url");
 
 
 
 
 
 
+                                                                                                                                                                                                        embed:     {
 
 
 
-yardim.on(
 
 
 
 
-          "messageUpdate",
 
 
+                                                                                                                                                                                                                  color:     0x696969,
 
 
 
@@ -615,22 +956,19 @@ yardim.on(
 
 
 
-          (event)     =>     {
 
 
 
 
-                    if     (/^(http|https):\/\//.test(event.message.content))     {
 
 
 
+                                                                                                                                                                                              image     :     {
 
-                              event.message.channel.send({
 
 
 
 
-                                        content:     `<@${event.message.author.id}>     sa     sa     sa     sa     sa     `,
 
 
 
@@ -640,167 +978,717 @@ yardim.on(
 
 
 
-                                        mentions:     {     users:     [event.message.author.id]     },
+                                                                                                                                                                url:     d.url
 
 
 
 
-                              });
 
 
 
 
-                    }
 
 
 
 
-          }
 
 
+                                                                                                                        }
 
 
-);
 
 
+                                                                                                                                                                }
 
 
 
 
+                                                                                                                                            
 
 
 
-yardim.on(
 
+                                                                                                                                            }     )
 
 
 
-          "message",
 
 
 
 
 
 
+                                                                                          }
 
 
 
-          async     (event)     =>     {
 
 
 
 
-                    if     (event.message.content.includes("hug"))     {
 
 
 
 
-                              const     res     =     await     get("https://some-random-api.ml/animu/hug");
 
 
 
+                              }
 
 
 
 
+                              
 
 
-                              const     d     =     res.json();
 
 
+                              
 
 
 
 
+          )
 
 
 
-                              return     event.channel.send({
 
 
 
 
-                                        content:     d.link,
 
 
 
 
-                              });
 
 
 
+                                                            const     {     
 
-                    }
 
 
 
 
-          }
 
 
 
 
-);
 
 
 
 
 
+                                                                      isWebUri     
 
 
 
 
-/*     Imagine     not     commenting:     ""“Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”
+                                                            
 
 
 
 
-     *     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "Dream"     "MrBeast"     "Warzone"     "FaZe     Clan"     "100     Thieves"     "Call     of     Duty"     "Pokemon"     "Pokemon     cards"
+                                                            
 
 
 
 
-     *     "card     unboxing"     "Charizard"     "they     don't     want     you     to     know"     "Flat     earth"     "round     earth"     "triangle     earth"     "the     earth     is     not     earth"
+                                                            
 
 
 
 
-     *     "what     even     is     earth     if     not     earth     omg     government     is     lying     to     you"     "Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"
+                                                            }
 
 
 
 
-     *     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     "Runescape"     "World     ofWarcraft"     "Shadowlands"     "PogChamp"     "MrBeast"     "Warzone"
 
 
 
 
-     *     "FaZe     Clan"     "100     Thieves"     "Call     of     Duty"     "Pokemon"     "Halo"     "Devil     may     cry"     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”
 
+                                                                                          =     require     (     'valid-url'     );
 
 
 
-     *     “Cocomelon”     “t     series”     “Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”
 
 
 
 
-     *     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "Dream"     "MrBeast"     "Warzone"     "FaZe     Clan"     "100     Thieves"     "Call     of     Duty"     "Pokemon"     "Pokemon     cards"
 
 
 
 
-     *     "card     unboxing"     "Charizard"     "they     don't     want     you     to     know"     "Flat     earth"     "round     earth"     "triangle     earth"     "the     earth     is     not     earth"
 
 
 
 
-     *     "what     even     is     earth     if     not     earth     omg     government     is     lying     to     you"     "Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"
 
 
 
 
-     *     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "Dream"     "MrBeast"     "Warzone"
+
+
+
+
+
+                                                                                                                        yardim
+
+
+
+
+
+
+
+
+
+                                                                      .on                         (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                'messageUpdate',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                  event     =>     
+
+
+
+
+                                                                                                                                  
+
+
+
+
+                                                                                                                                  
+
+
+
+
+                                                                                                                                                                          {
+
+
+
+
+
+
+
+
+
+                                                                                                                                            if     (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                      /^(http|https):\/\//.test(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                          event.
+
+
+
+
+                                                                                                                                                                          
+
+
+
+
+                                                                                                                                                                                                        message
+
+
+
+
+                                                                                                                                                                                                        
+
+
+
+
+                                                                                                                                                                .content
+
+
+
+
+
+
+
+
+
+                                                                                                                                                      )
+
+
+
+
+
+
+
+
+
+                                                                                                              )     
+
+
+
+
+                                                                                                              
+
+
+
+
+                                                                                                                                            {
+
+
+
+
+
+
+
+
+
+                                                                                          event
+
+
+
+
+                                                                                          
+
+
+
+
+                                                                                                                                                                          .message
+
+
+
+
+
+
+
+
+
+                                                                                                                        .channel
+
+
+
+
+
+
+
+
+
+                                                                      .send     (
+
+
+
+
+                                                                                
+
+
+
+
+                                                                                
+
+
+
+
+                                                  {
+
+
+
+
+
+
+
+
+
+                                                                                content:     `<@${event.message.author.id}>     sa     sa     sa     sa     sa     `,
+
+
+
+
+
+
+
+
+
+                                                                                mentions:     {     users:     [event.message.author.id]     }
+
+
+
+
+                                                                      }
+
+
+
+
+                                                                      
+
+
+
+
+                              )
+
+
+
+
+                                                                                                                                       
+
+
+
+
+                                                                                          }
+
+
+
+
+                                                                                                                                            
+
+
+
+
+                                                                                                                                                                          
+
+
+
+
+                                                                                                                        }
+
+
+
+
+                                                                      )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        yardim
+
+
+
+
+
+
+
+
+
+                                                                      .on     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                      (
+
+
+
+
+
+
+
+
+
+                                                                                'message',
+
+
+
+
+
+
+
+
+
+                                                                                                    async     event     =>     {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    
+
+
+
+
+
+
+
+
+
+                                                                                if     (event.message.content.includes('hug'))     
+
+
+
+
+                                                                                
+
+
+
+
+                                                                                
+
+
+
+
+                                                                                {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                          const     res     =     await     get('https://some-random-api.ml/animu/hug');
+
+
+
+
+
+
+
+
+
+                                                                                          const     d     =     res                                                                           .     json     (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                          );
+
+
+
+
+
+
+
+
+
+                                                                                          return     event
+
+
+
+
+                                                                                                              .channel
+
+
+
+
+                                                                                                                                  .send(
+
+
+
+
+
+
+
+
+
+                                                                                                                                            {
+
+
+
+
+
+
+
+
+
+                                                                                                                                                      content:     d.link
+
+
+
+
+                                                                                }
+
+
+
+
+                                                                                                                                  )
+
+
+
+
+
+
+
+
+
+                                                                                                                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  }
+
+
+
+
+
+
+
+
+
+                                                                      )
+
+
+
+
+
+
+
+
+
+/*     Imagine     not     commenting:     ""“Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     
+
+
+
+
+     *     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "Dream"     "MrBeast"     "Warzone"     "FaZe     Clan"     "100     Thieves"     "Call     of     Duty"     "Pokemon"     "Pokemon     cards"     
+
+
+
+
+     *     "card     unboxing"     "Charizard"     "they     don't     want     you     to     know"     "Flat     earth"     "round     earth"     "triangle     earth"     "the     earth     is     not     earth"     
+
+
+
+
+     *     "what     even     is     earth     if     not     earth     omg     government     is     lying     to     you"     "Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"     
+
+
+
+
+     *     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "PogChamp"     "MrBeast"     "Warzone"     
+
+
+
+
+     *     "FaZe     Clan"     "100     Thieves"     "Call     of     Duty"     "Pokemon"     "Halo"     "Devil     may     cry"     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     
+
+
+
+
+     *     “Cocomelon”     “t     series”     “Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     
+
+
+
+
+     *     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "Dream"     "MrBeast"     "Warzone"     "FaZe     Clan"     "100     Thieves"     "Call     of     Duty"     "Pokemon"     "Pokemon     cards"     
+
+
+
+
+     *     "card     unboxing"     "Charizard"     "they     don't     want     you     to     know"     "Flat     earth"     "round     earth"     "triangle     earth"     "the     earth     is     not     earth"     
+
+
+
+
+     *     "what     even     is     earth     if     not     earth     omg     government     is     lying     to     you"     "Minecraft"     "ASMR"     "pewdiepie"     "music"     "Fortnite"     "markiplier"     
+
+
+
+
+     *     “YouTube     is     a     perfectly     balanced     game     with     no     exploits.”     "Runescape"     "World     of     Warcraft"     "Shadowlands"     "Dream"     "MrBeast"     "Warzone"     
 
 
 
@@ -820,7 +1708,7 @@ yardim.on(
 
 
 
-const     {     readFileSync:     readYourCum     }     =     require("fs");
+                                                  const     {
 
 
 
@@ -830,47 +1718,137 @@ const     {     readFileSync:     readYourCum     }     =     require("fs");
 
 
 
-yardim.on(
-
-
-
-
-          "message",
 
 
 
 
 
+                                                            readFileSync:
 
 
 
 
-          (event)     =>     {
 
 
 
 
-                    if     (
+
+                                        readYourCum
 
 
 
 
-                              event.message.content     ===     "!bal"     ||
+                                                            
 
 
 
 
-                              event.message.content     ===     "!balance"
+                                                  
 
 
 
 
-                    )     {
+}     =     require(
 
 
 
 
-                              {
+
+
+
+
+
+'fs'
+
+
+
+
+
+
+
+
+
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        yardim
+
+
+
+
+
+
+
+
+
+          .
+
+
+
+
+
+
+
+
+
+                                                  on(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            'message',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    event     =>     
+
+
+
+
+                                                                                                    
 
 
 
@@ -880,37 +1858,42 @@ yardim.on(
 
 
 
-                                                  {
 
 
 
 
-                                                            {
 
 
 
 
-                                                                      {
+
+
+                                                                                                    if     (
 
 
 
 
-                                                                                {
 
 
 
 
-                                                                                          {
+
+                                                            event.message.content     ===     '!bal'     ||     event.message.content     ===     '!balance'
 
 
 
 
-                                                                                                    {
+                                                            
 
 
 
 
-                                                                                                              for     (let     cum     =     0;     cum     <     10;     cum++)     {
+                                                                                                    )     {
+
+
+
+
+                                                                                                              {
 
 
 
@@ -950,57 +1933,182 @@ yardim.on(
 
 
 
-                                                                                                                                                                                              {
 
 
 
 
-                                                                                                                                                                                                        {
 
 
 
 
-                                                                                                                                                                                                                  {
+
+
+                                                                                                                                                                                                        for     (
 
 
 
 
-                                                                                                                                                                                                                            {
 
 
 
 
-                                                                                                                                                                                                                                      {
+
+                                                                                                                                                                                                                  let     cum     =     0;
 
 
 
 
-                                                                                                                                                                                                                                                readYourCum("./config.json");
 
 
 
 
-                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                  cum     <     10;
 
 
 
 
-                                                                                                                                                                                                                            }
 
 
 
 
-                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                  cum++
 
 
 
 
-                                                                                                                                                                                                        }
+                                                                                                                                                                                                        )     {{{{{{{{{{{{{
 
 
 
 
-                                                                                                                                                                                              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                  readYourCum('./config.json');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                        }}}}}}}}}}}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                              return     event
+
+
+
+
+
+
+
+
+
+                                                                      .channel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                            .send(`
+
+
+
+
+                                                                                                                                                                                                                            
+
+
+
+
+                                                                                                                                                                                                                            
+
+
+
+
+                                                                                                                                                                                                                            
+
+
+
+
+                              your     diamonds     are     :diamond:     **10**     lololol
+
+
+
+
+                                                                                                                                                                                                                            
+
+
+
+
+                                                                                                                                                                                                                            
+
+
+
+
+                                                                                                                                                                                                                            `);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1045,99 +2153,28 @@ yardim.on(
 
 
 
-
-
-
-
-
-                                                                                                              return     event.channel.send(`
-
-
-
-
-                                                                                                                                                                                               
-
-
-
-
-                                                                                                                                                                                               
-
-
-
-
-                                                                                                                                                                                               
-
-
-
-
-                              your     diamonds     are     :diamond:     **10**     lololol
-
-
-
-
-                                                                                                                                                                                               
-
-
-
-
-                                                                                                                                                                                               
-
-
-
-
-                                                                                                                                                                                                                            `);
-
-
-
-
                                                                                                     }
 
 
 
 
-                                                                                          }
 
 
 
 
-                                                                                }
+
+}
 
 
 
 
-                                                                      }
+                                                  )
 
 
 
 
-                                                            }
 
 
 
 
-                                                  }
 
-
-
-
-                                        }
-
-
-
-
-                              }
-
-
-
-
-                    }
-
-
-
-
-          }
-
-
-
-
-);
