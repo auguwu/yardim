@@ -14,7 +14,7 @@
     "is-odd": "^3.0.1",
     "is-ten-thousand": "^0.2.0",
     "lodash": "^4.17.20",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "underscore": "^1.12.0",
     "valid-url": "^1.0.9",
     "wumpcord": "^1.0.4"
